@@ -1,0 +1,26 @@
+Logger or logs 
+//It will print the message or information after each api or database is called.
+//package name: winston
+Which places we need to logs the data 
+//Before any database operation 
+//after successfull or failure database operation 
+//any api is entering or failing
+//any third party api call - sms,email,google api.
+=========================================================
+Template Engine:
+//It helps express app to render the html from backend side 
+//So all the html will render from backend 
+//Inside the html to bind dynamic data from api template engine will help 
+types of template 
+1.hbs 
+    //To bind dynamic data  - {{}}
+    //res.render()
+2.pug 
+3.express-handlebars
+   //It is similar to hbs
+   //Few functions will get change 
+   SPA - layouts - index.js 
+         partials - we reuse inside the layouts 
+         home.hbs - main component 
+         people.hbs - main component
+=============================================================
